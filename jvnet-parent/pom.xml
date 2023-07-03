@@ -16,7 +16,7 @@
 
 	<groupId>net.java</groupId>
 	<artifactId>jvnet-parent</artifactId>
-	<version>2-SNAPSHOT</version>
+	<version>3</version>
 	<packaging>pom</packaging>
 
 	<name>Java.net Parent</name>
@@ -36,9 +36,11 @@
 			<url>https://maven.java.net/content/repositories/snapshots</url>
 			<releases>
 				<enabled>false</enabled>
+				<updatePolicy>never</updatePolicy>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
 			</snapshots>
 		</repository>
 	</repositories>
